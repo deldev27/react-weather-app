@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const WeatherCity = ({ city }) => {
-  const API_key = ""; // API Key openweathermap.org
+  const API_key = "48c9b474220c95d86a3f16632e127584"; // API Key openweathermap.org
 
   const [weatherFindCity, setWeatherFindCity] = useState([]);
 

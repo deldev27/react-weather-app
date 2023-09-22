@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { v4 } from "uuid";
 
 const WeatherApp = () => {
-  const API_key = ""; // API Key openweathermap.org
-  const IP_key = ""; // API Key ipify.org
+  const API_key = "48c9b474220c95d86a3f16632e127584"; // API Key openweathermap.org
+  const IP_key = "at_VIEhsyxwOiAsNhKwaBxoCh4isO8SC"; // API Key ipify.org
 
   const [userLocation, setUserLocation] = useState([]);
   const [errorGeolocation, setErrorGeolocation] = useState();
