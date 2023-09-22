@@ -1,0 +1,46 @@
+.find-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-city {
+  width: 182px;
+  height: 36px;
+  text-align: center;
+  border: 0;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.7);
+  outline: none;
+}
+
+.search-city::placeholder {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hr-line {
+  width: 326px;
+  height: 2px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.find-btn {
+  margin-top: 40px;
+  width: 140px;
+  height: 48px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(76, 1, 224, 1);
+  background: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

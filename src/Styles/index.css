@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(150.64deg, #8e2de2 0%, #4a00e0 100%);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding-top: 40px;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 33.89px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer {
+  padding-bottom: 40px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.5);
+}

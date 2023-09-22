@@ -1,0 +1,31 @@
+.result-weather {
+  width: 200px;
+  height: 187px;
+}
+
+.result-degrees {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87.14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.location-degrees {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.change-btn {
+  margin-top: 36px;
+  font-family: "Mulish";
+  background: none;
+  border: none;
+  text-decoration: underline;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
